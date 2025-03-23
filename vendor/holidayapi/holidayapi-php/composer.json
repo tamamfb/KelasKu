@@ -1,0 +1,30 @@
+{
+  "name": "holidayapi/holidayapi-php",
+  "description": "Official PHP library for Holiday API",
+  "version": "2.3.0",
+  "type": "library",
+  "keywords": [
+    "calendar",
+    "holiday",
+    "holidays",
+    "holidayapi"
+  ],
+  "homepage": "https://github.com/holidayapi/holidayapi-php",
+  "license": "MIT",
+  "authors": [{
+    "name": "Josh Sherman",
+    "email": "hello@holidayapi.com",
+    "homepage": "https://holidayapi.com"
+  }],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4"
+  },
+  "autoload": {
+    "psr-4": {
+      "HolidayAPI\\": "src/"
+    }
+  }
+}

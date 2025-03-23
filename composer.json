@@ -1,0 +1,5 @@
+{
+    "require": {
+        "holidayapi/holidayapi-php": "^2.3"
+    }
+}
